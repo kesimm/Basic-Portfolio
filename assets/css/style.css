@@ -1,0 +1,55 @@
+header {
+    position: relative;
+    background-color: #ffffff;
+    border-bottom: 3px solid darkgray;
+}
+
+h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 20px;
+    position: relative;
+    left: 280px;
+    top: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.link {
+    position: absolute;
+    bottom: 0;
+    right: 300px;
+    padding: 20px 25px;
+
+}
+
+article {
+    background-image: url("../images/circles-light.png")
+}
+
+section {
+    top: 40px;
+    width: 940px;
+    background-color: #ffffff;
+    padding: 35px 25px;
+    position: relative;
+    left: 280px;
+}
+
+#profile {
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}

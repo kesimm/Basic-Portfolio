@@ -34,7 +34,8 @@ h2 {
 
 }
 
-article {
+.background {
+    min-height: 700px;
     background-image: url("../images/circles-light.png")
 }
 
@@ -47,6 +48,13 @@ section {
     left: 300px;
 }
 
+p {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
 #profile {
     height: auto; 
     width: auto; 
@@ -56,13 +64,19 @@ section {
     margin-right: 20px;
 }
 
+.box {
+    margin:20px;
+    float: left;
+}
+
 footer {
     text-align: center;
     border-top: 5px solid #4aaaa5;
-    height: 30px; 
-    margin-top: 300px;
+    height: 40px; 
     background-color: #666666;
     padding: 10px;
+    position: relative;
+    bottom: 0;
 }
 
 
